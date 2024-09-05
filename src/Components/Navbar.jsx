@@ -97,24 +97,25 @@ const Navbar = () => {
         >
           About Me
         </NavLink>
-        <a
-          href="#"
+
+        <NavLink
+          to="/project"
           className="py-3 hover:bg-pink-400 rounded-2xl mx-2 px-4 liHover text-xl"
         >
           Projects
-        </a>
-        <a
-          href="#"
-          className="py-3 hover:bg-pink-400 rounded-2xl mx-2 px-4 liHover text-xl"
-        >
-          Experience
-        </a>
-        <a
-          href="#"
+        </NavLink>
+        <NavLink
+          to="/skills"
           className="py-3 hover:bg-pink-400 rounded-2xl mx-2 px-4 liHover text-xl"
         >
           Skills
-        </a>
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="py-3 hover:bg-pink-400 rounded-2xl mx-2 px-4 liHover text-xl"
+        >
+          Contact
+        </NavLink>
       </div>
     </div>
   );
