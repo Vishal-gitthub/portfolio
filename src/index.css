@@ -7,6 +7,9 @@
 body {
   font-family: "SUSE", sans-serif;
 }
+::selection{
+  display: none;
+}
 ::-webkit-scrollbar {
   width: 6px;
 }
