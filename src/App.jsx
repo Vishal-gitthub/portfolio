@@ -7,6 +7,7 @@ const Project = lazy(() => import("./Components/Project"));
 const AboutMe = lazy(() => import("./Components/AboutMe"));
 const Skills = lazy(() => import("./Components/Skills"));
 const Contact = lazy(() => import("./Components/Contact"));
+import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Analytics />
       </Suspense>
     </div>
   );
