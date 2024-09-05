@@ -90,15 +90,6 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="flex gap-4">
-              <img src={locationSvg} alt="" />
-              <div>
-                <h1 className="text-xl">Location</h1>
-                <span className="text-gray-600 hover:text-black">
-                  Ghazipur, Uttar Pradesh
-                </span>
-              </div>
-            </div>
           </div>
 
           {/* Right----section */}

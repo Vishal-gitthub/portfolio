@@ -70,7 +70,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="aboutMeTexts pt-6">
-          <h1 className="text-3xl font-bold ">My Tech Stack</h1>
+          <h1 className="text-3xl font-bold text-center">My Tech Stack</h1>
           <div className="flex items-center max-md:flex-col">
             <div className="flex flex-wrap">
               <img src={NodeSvg} alt="" className="p-1" />
@@ -97,6 +97,15 @@ const AboutMe = () => {
               <Doughnut data={data} />
             </div>
           </div>
+        </div>
+        <div>
+          <a
+            className="button-86"
+            href="https://drive.google.com/file/d/1_NYLnPLs6jS8fC19EQ-0T7u6Fe4tygH6/view?usp=sharing"
+            target="_blank"
+          >
+            Download Resume
+          </a>
         </div>
       </section>
     </div>

@@ -35,13 +35,7 @@ const Front = () => {
               repeat={Infinity}
             />
           </h1>
-          <a
-            className="button-86"
-            href="https://drive.google.com/file/d/1_NYLnPLs6jS8fC19EQ-0T7u6Fe4tygH6/view?usp=sharing"
-            target="_blank"
-          >
-            Download Resume
-          </a>
+        
         </section>
       </div>
     </>
