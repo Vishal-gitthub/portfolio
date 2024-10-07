@@ -28,11 +28,11 @@ const Contact = () => {
     <div>
       <section
         className="w-full h-full py-5 px-9 text-black"
-        style={{ background: "#CAFFB9" }}
+        style={{ background: "var(--bgColor)" }}
       >
         <Navbar />
         <div>
-          <h1 className="text-center font-black text-6xl dShadow py-6">
+          <h1 className="font-black text-6xl dShadow  pt-9 text-center text-black pb-11">
             Contact
           </h1>
         </div>

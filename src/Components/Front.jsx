@@ -5,7 +5,10 @@ import { TypeAnimation } from "react-type-animation";
 const Front = () => {
   return (
     <>
-      <div className="bg-yellow-400 w-full h-screen py-5 px-9  overflow-x-hidden">
+      <div
+        className=" w-full h-screen py-5 px-9  overflow-x-hidden"
+        style={{ background: "var(--bgColor)" }}
+      >
         <Navbar />
         <section className="mt-11">
           <div className="flex justify-evenly items-center max-md:flex-col">
@@ -35,7 +38,6 @@ const Front = () => {
               repeat={Infinity}
             />
           </h1>
-        
         </section>
       </div>
     </>

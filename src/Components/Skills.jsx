@@ -12,12 +12,12 @@ const Skills = () => {
   return (
     <div>
       <section
-        className="w-full h-full py-5 px-9 text-white"
-        style={{ background: "#F59CA9" }}
+        className="w-full h-full py-5 px-9"
+        style={{ background: "var(--bgColor)" }}
       >
         <Navbar />
         <div>
-          <h1 className="text-center font-black text-6xl BlackShadow py-6">
+          <h1 className="font-black text-6xl dShadow  pt-9 text-center text-black pb-11">
             Skills
           </h1>
           <p className="text-xl text-center">
@@ -28,7 +28,7 @@ const Skills = () => {
         <div className="grid grid-cols-4  max-md:place-items-center max-md:grid-cols-2 gap-3 max-sm:grid-cols-1 pt-9 justify-items-center">
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4 boxShadow rounded-md border-black border mt-6">
             <img src={HtmlSvg} alt="" />
-            <h1 className="text-2xl pb-2">HTML5</h1>
+            <h1 className="text-2xl pb-2 text-[#e44d26]">HTML5</h1>
             <p>
               The backbone of web development, used to structure content and
               create the foundation of every web page.
@@ -36,7 +36,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4  boxShadow rounded-md border-black border  mt-6">
             <img src={CssSvg} alt="" />
-            <h1 className="text-2xl pb-2">CSS 3</h1>
+            <h1 className="text-2xl pb-2 text-[#264de4]">CSS 3</h1>
             <p>
               The styling language that brings web pages to life with design,
               layout, and visual appeal.
@@ -44,7 +44,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4   boxShadow rounded-md border-black border mt-6">
             <img src={javascript} alt="" />
-            <h1 className="text-2xl pb-2">Javascript</h1>
+            <h1 className="text-2xl pb-2 text-[#f5de19]">Javascript</h1>
             <p>
               The programming language that adds interactivity, dynamic content,
               and functionality to web pages.
@@ -52,7 +52,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4  boxShadow rounded-md border-black border  mt-6">
             <img src={ReactSvg} alt="" />
-            <h1 className="text-2xl pb-2">React.Js</h1>
+            <h1 className="text-2xl pb-2 text-[#00d8ff]">React.Js</h1>
             <p>
               A powerful JavaScript library for building fast, responsive, and
               scalable user interfaces.
@@ -60,7 +60,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4  boxShadow rounded-md border-black border  mt-6">
             <img src={TailwindCss} alt="" />
-            <h1 className="text-2xl pb-2">Tailwind Css</h1>
+            <h1 className="text-2xl pb-2 text-[#44a8b3]">Tailwind Css</h1>
             <p>
               A utility-first CSS framework that enables rapid, responsive
               design with minimal code.
@@ -68,7 +68,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4   boxShadow rounded-md border-black border mt-6">
             <img src={Git} alt="" />
-            <h1 className="text-2xl pb-2">Git</h1>
+            <h1 className="text-2xl pb-2 text-[#dd4c35]">Git</h1>
             <p>
               A distributed version control system that helps manage and track
               changes in code with collaboration features.
@@ -85,7 +85,7 @@ const Skills = () => {
           </div>
           <div className="  w-60 flex items-center flex-col text-center text-xl px-4 py-4  boxShadow rounded-md border-black border  mt-6">
             <img src={Canva} alt="" />
-            <h1 className="text-2xl pb-2">Canva</h1>
+            <h1 className="text-2xl pb-2 text-[#2987dd]">Canva</h1>
             <p>
               A graphic design tool that simplifies creating visual content with
               pre-designed templates, drag-and-drop functionality

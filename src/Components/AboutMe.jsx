@@ -49,11 +49,13 @@ const AboutMe = () => {
     <div>
       <section
         className="h-full w-full  py-5 px-9 "
-        style={{ background: "#8FA6CB" }}
+        style={{ background: "var(--bgColor)" }}
       >
         <Navbar />
-        <h1 className="text-6xl mt-20 font-black dShadow">About</h1>
-        <div className=" pl-6 text-lg text-white aboutMeTexts">
+        <h1 className="font-black text-6xl dShadow  pt-9 text-center text-black pb-11">
+          About{" "}
+        </h1>{" "}
+        <div className=" pl-6 text-lg aboutMeTexts">
           <p className="mt-6">
             Hello, I'm Vishal Sharma, a passionate web developer from Ghazipur,
             Uttar Pradesh, India. As a recent graduate, I am eager to dive into
@@ -61,13 +63,7 @@ const AboutMe = () => {
             new technologies. I'm excited to bring fresh ideas and innovative
             solutions to the projects I work on.
           </p>
-          <p className="mt-4">
-            I’m enthusiastic about exploring a wide array of technologies, from
-            web development and SPAs to React applications and responsive
-            design. My mission is to craft high-performance applications that
-            tackle real-world challenges and offer users a seamless, engaging
-            experience.
-          </p>
+          <p className="mt-4"></p>
         </div>
         <div className="aboutMeTexts pt-6">
           <h1 className="text-3xl font-bold text-center">My Tech Stack</h1>

@@ -8,9 +8,12 @@ import weatherApp from "../projectImage/WeatherApp.png";
 const Project = () => {
   return (
     <div>
-      <section className="h-full w-full py-5 px-9 bg-blue-300">
+      <section
+        className="h-full w-full py-5 px-9"
+        style={{ background: "var(--bgColor)" }}
+      >
         <Navbar />
-        <h1 className="font-black text-6xl BlackShadow  pt-9 text-center text-white pb-11">
+        <h1 className="font-black text-6xl dShadow  pt-9 text-center text-black pb-11">
           Projects
         </h1>
         <div className="flex flex-col  max-md:items-center gap-9">

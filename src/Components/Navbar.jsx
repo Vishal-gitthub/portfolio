@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <section
         className=" rounded-3xl py-2 px-8 flex items-center justify-between navShadow sticky top-0 z-40"
-        style={{ background: "#28AFB0" }}
+        style={{ background: "var(--NavBgColor)" }}
       >
         <div className="w-52">
           <img src={logo} />{" "}
